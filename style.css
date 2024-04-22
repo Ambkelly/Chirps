@@ -1,0 +1,702 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+header{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: fit-content;
+    background-color: #FBF8F3;
+    padding-bottom: 20px;
+}
+.general{
+    /* border: 1px solid black; */
+}
+
+nav{
+    /* border: 1px solid black; */
+    height: 90px;
+    width: 100%;  
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo{
+    /* border:  1px solid black; */
+    color: #1DA1F2;
+}
+ul{
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+ul img{
+    display: none;
+}
+.button{
+    /* border: 1px solid black; */
+    justify-content: end;
+    /* padding-left: 50px; */
+}
+button{
+    border: none;
+    border-radius: 5px;
+    background-color: #1DA1F2;
+    color: white;
+    /* align-items: center; */
+    padding: 15px 20px;
+    gap: 20px;
+    font-size: 16px;
+}
+span{
+    color: #1F7898;
+    font-weight: 800;
+}
+.hero_section{
+    /* border: 1px solid red; */
+    width: 100%;
+    justify-content: space-between;
+}
+.hero_details{
+    /* border: 1px solid black; */
+   flex-direction: column;
+  justify-content: center;
+}
+.hero_details h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+.hero_details p{
+    color: #A6A5A3;
+    font-size: 17px;
+    line-height: 25px;
+}
+.hero_text{
+    padding-top: 20px;
+}
+.hero_image{
+    width: 100%;
+    /* border: 3px solid red; */
+}
+.hero_image img{
+    width: 100%;
+    height: 90%;
+}
+.Desktop_hero_image{
+    /* border: 2px green solid; */
+    width: 100%;
+    height: 100%;
+}
+.Tablet_hero_image{
+    display: none;
+}
+.buttons{
+    /* border: 1px solid black; */
+    background-color: #FBF8F3;
+    align-items: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+.buttons h2{
+    color: #277D9B;
+    font-size: 20px;
+}
+.user{
+    margin-top: 40px;
+}
+.userAvatar09{
+    position: relative;
+}
+.userAvatar08{
+    position: absolute;
+    left: 220px;
+}
+.userAvatar07{
+     position: absolute;
+    left: 245px;
+}
+.userAvatar06{
+     position: absolute;
+    left: 265px;
+}
+.userAvatar05{
+     position: absolute;
+    left: 285px;
+}
+.userAvatar04{
+     position: absolute;
+    left: 305px;
+}
+.userAvatar03{
+     position: absolute;
+    left: 325px;
+}
+.userAvatar02{
+     position: absolute;
+    left: 350px;
+}
+.userAvatar01{
+     position: absolute;
+    left: 375px;
+}
+.main{
+    /* border: 1px solid rgb(241, 19, 19); */
+    height: 640px;
+    margin-top: 80px;
+}
+.main_heading{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+.main_general{
+    /* border: 1px solid black; */
+}
+.box{
+    /* justify-content: center; */
+    align-items: center;
+   justify-content: space-between;
+}
+.Analytics{
+    border: 1px solid #DBDBDB;
+    border-radius: 5px;
+    height: fit-content;
+    width: 48%;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+   
+}
+.Analytics h3{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.Analytics p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+.Our_customers{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: fit-content;
+    background-color:#D7F5F5 ;
+    margin-top: 50px;
+}
+.Our_customers_content{
+    /* border: 1px solid black; */
+}
+.Our_customers_content_h1{
+    /* border: 1px solid black; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.testimonials{
+
+    justify-content: space-between;
+}
+.Sara{
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    /* height: 300px; */
+    width: 32%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 20px;
+    margin-bottom: 30px;
+}
+.sara_general{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 20%;
+    justify-content: space-between;
+    
+}
+.Sara img{
+    width: 100%;
+}
+
+.see{
+    /* border: 1px solid black; */
+    width: 50%;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Sera_details{
+    /* border: 1px solid black; */
+    padding-top: 20px;
+    font-size: 20px;
+    color: #747474;
+    line-height: 30px;
+}
+.last_row{
+    /* border: 1px solid black; */
+    justify-content: center;
+    align-items: center;
+}
+.Like{
+    /* border: 1px solid black; */
+    width: 50%;
+    align-items: center;
+    gap: 20px;
+}
+.Like img{
+    width: 10%;
+}
+.date{
+    /* border: 1px solid black; */
+    width: 50%;
+   text-align: end;
+}
+.longer{
+    height: 400px;
+}
+.last_section{
+    /* border: 3px solid red; */
+    height: fit-content;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 50px;
+    
+}
+.Price_plan{
+    /* border: 1px solid black; */
+    height: fit-content;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.Price_plan h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+.Price_plan p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 17px;
+    color: #A6A6A6;
+}
+.Monthly_plan{
+    border: 2px solid #FEC66A;
+    border-radius: 10px;
+    height: fit-content;
+    margin-top: 50px;
+    background-color: #FBF8F3;
+}
+.first{
+    /* border: 1px solid black; */
+    height: fit-content;
+    width: 80%;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+}
+.month{
+    padding-top: 20px;
+    color: #A6A5A3;
+    font-size: 20px;
+}
+.money{
+    align-items: center;
+}
+.money h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+.money p{
+    font-size: 25px;
+    color: #A6A5A3;
+}
+.unlimited{
+    /* border: 1px solid black; */
+    height: fit-content;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.scheduled_tweets{
+    gap: 10px;
+    color: #A6A5A3;
+    font-size: 16px;
+    padding-top: 20px;
+}
+.likes{
+    padding-top: 10px;
+}
+.last_button{
+    /* border: 1px solid black; */
+    width: 90%;
+    margin: 0 auto;
+    justify-content: start;
+    padding-top: 0px;
+}
+.last_hr{
+    border-bottom: 1px solid #A6A5A3;
+    margin-bottom: 20px;
+    
+}
+.last_button button{
+    /* border: 1px solid black; */
+    width: 100%;
+    display: flex;
+    height: fit-content;
+    justify-content: center;
+    align-items: center; 
+    margin-bottom: 20px;
+}
+
+.footer{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 100px;
+    background-color: #D7F5F5;
+}
+.last{
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.Chirps{
+    /* border: 1px solid black; */
+    height: 100%;
+    align-items: center;
+    color: #3180F5;
+}
+.icons{
+    /* border: 1px solid red; */
+    gap: 50px;
+    font-size: 8px;
+    justify-content: end;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Desktop Devices Large, Xlarge, XXLarge */
+/* Large */
+@media(min-width:992px){
+    .col-lg-1{
+        width: 8.33%;
+   }
+   .col-lg-2{
+    width: 16.66%;
+    }
+    .col-lg-3{
+        width: 25%;
+    }
+    .col-lg-4{
+        width: 33.33%;
+    }
+    .col-lg-5{
+        width: 41.66%;
+    }
+    .col-lg-6{
+        width: 50%;
+    }
+    .col-lg-7{
+        width: 58.33%;
+    }
+    .col-lg-8{
+        width: 66.66%;
+    }
+    .col-lg-9{
+        width: 75%;
+    }
+    .col-lg-10{
+        width: 83.33%;
+    }
+    .col-lg-11{
+        width: 91.66%;
+    }
+    .col-lg-12{
+        width: 100%;
+    }
+}
+/* Tablet Devices - Small and Medium */
+/* Medium Devices */
+@media(min-width:768px) and (max-width:991px){
+    .Desktop_hero_image{
+        display: none;
+    }
+    .Tablet_hero_image{
+        /* border: 1px solid red; */
+        display: block;
+        order: 1;
+    }
+    .hero_details{
+        /* border: 1px solid red; */
+        order: 2;
+    }
+.userAvatar08{
+    position: absolute;
+    left: 110px;
+}
+.userAvatar07{
+     position: absolute;
+    left: 135px;
+}
+.userAvatar06{
+     position: absolute;
+    left: 155px;
+}
+.userAvatar05{
+     position: absolute;
+    left: 180px;
+}
+.userAvatar04{
+     position: absolute;
+    left: 200px;
+}
+.userAvatar03{
+     position: absolute;
+    left: 220px;
+}
+.userAvatar02{
+     position: absolute;
+    left: 240px;
+}
+.userAvatar01{
+     position: absolute;
+    left: 260px;
+}
+.Analytics{
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.tablet{
+    display: none;
+}
+.Sara{
+    width: 47%;
+}
+.icons h1{
+    font-size: 15px;
+}
+
+    .col-md-1{
+        width: 8.33%;
+   }
+   .col-md-2{
+    width: 16.66%;
+    }
+    .col-md-3{
+        width: 25%;
+    }
+    .col-md-4{
+        width: 33.33%;
+    }
+    .col-md-5{
+        width: 41.66%;
+    }
+    .col-md-6{
+        width: 50%;
+    }
+    .col-md-7{
+        width: 58.33%;
+    }
+    .col-md-8{
+        width: 66.66%;
+    }
+    .col-md-9{
+        width: 75%;
+    }
+    .col-md-10{
+        width: 83.33%;
+    }
+    .col-md-11{
+        width: 91.66%;
+    }
+    .col-md-12{
+        width: 100%;
+    }
+}
+/* Small Devices */
+@media(max-width:767px){
+    li{
+        display: none;
+    }
+   ul{
+    justify-content: end;
+   }
+   ul img{
+    display: block;
+   }
+    .nav_button{
+        display: none;
+    }
+    .hero_details{
+        order: 2;
+    }
+    .userAvatar08{
+    position: absolute;
+    left: 100px;
+}
+.userAvatar07{
+     position: absolute;
+    left: 120px;
+}
+.userAvatar06{
+     position: absolute;
+    left: 140px;
+}
+.userAvatar05{
+     position: absolute;
+    left: 160px;
+}
+.userAvatar04{
+     position: absolute;
+    left: 180px;
+}
+.userAvatar03{
+     position: absolute;
+    left: 200px;
+}
+.userAvatar02{
+     position: absolute;
+    left: 220px;
+}
+.userAvatar01{
+     position: absolute;
+    left: 240px;
+}
+.main_heading{
+    margin-top: 60px;
+}
+.Sara{
+    margin-top: 20px;
+}
+.icons{
+    gap: 20px;
+  justify-content: end;
+}
+    .col-sm-1{
+        width: 8.33%;
+   }
+   .col-sm-2{
+    width: 16.66%;
+    }
+    .col-sm-3{
+        width: 25%;
+    }
+    .col-sm-4{
+        width: 33.33%;
+    }
+    .col-sm-5{
+        width: 41.66%;
+    }
+    .col-sm-6{
+        width: 50%;
+    }
+    .col-sm-7{
+        width: 58.33%;
+    }
+    .col-sm-8{
+        width: 66.66%;
+    }
+    .col-sm-9{
+        width: 75%;
+    }
+    .col-sm-10{
+        width: 83.33%;
+    }
+    .col-sm-11{
+        width: 91.66%;
+    }
+    .col-sm-12{
+        width: 100%;
+    }
+}
+/* Mobile Devices - Extra Small */
+/* Extra Small Devices */
+@media(max-width:575px){
+   .col-1{
+        width: 8.33%;
+   }
+   .col-2{
+    width: 16.66%;
+    }
+    .col-3{
+        width: 25%;
+    }
+    .col-4{
+        width: 33.33%;
+    }
+    .col-5{
+        width: 41.66%;
+    }
+    .col-6{
+        width: 50%;
+    }
+    .col-7{
+        width: 58.33%;
+    }
+    .col-8{
+        width: 66.66%;
+    }
+    .col-9{
+        width: 75%;
+    }
+    .col-10{
+        width: 83.33%;
+    }
+    .col-11{
+        width: 91.66%;
+    }
+    .col-12{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
